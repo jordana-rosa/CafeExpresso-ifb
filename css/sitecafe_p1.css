@@ -1,0 +1,143 @@
+@import url("https://fonts.cdnfonts.com/css/liberation-mono");
+@import url("https://fonts.cdnfonts.com/css/verdana");
+
+body {
+  background-image: url('../img/Fundo.jpg');
+  color: #ffeebb;
+  font: 16px;
+}
+
+header {
+  
+  display: block;
+  margin-bottom: 1px;
+  margin-right: 0px;
+  color: #ddcc99;
+}
+header p {
+  color: #ddcc99;
+  font:  "liberation", cursive;
+  border-right: 0px;
+  margin: 0;
+  text-align: right;
+}
+.imgLogo {
+  border-bottom: solid 3px;
+  padding-bottom: 15px;
+  margin-bottom: 6px;
+  
+  
+}
+.ender {
+  text-align: left;
+  font-size: 25px !important;
+  line-height: 150%;
+  float: right;
+}
+
+nav {
+  margin: 16px;
+  line-height: 200%;
+  font-size: 16px;
+  display: block;
+  width: 20%;
+  float: left;
+  margin-left: 0px;
+}
+
+a {
+  font: 1.2rem "verdana", sans-serif;
+  text-decoration: none;
+}
+
+.a-menu {
+  margin-right: 40px;
+  font-weight: bold;
+}
+
+.a-menu:link {
+  color: #ffeebb;
+}
+.a-menu:visited {
+  color: #ddcc99;
+}
+.a-menu:hover,
+.a-menu:active {
+  color: crimson;
+}
+ul {
+  line-height: 200%;
+  margin-top: 30px;
+  color: #ffeebb;
+  
+}
+
+ul > li{
+  list-style-type: circle;
+}
+ol {
+  line-height: 200%;
+  color: #ddcc99;
+}
+
+.imgGrande {
+  height: 25%;
+  width: 51%;
+}
+
+section {
+  width: 77%;
+  float: right;
+}
+.apres{
+  text-align: center;
+}
+.apres p{
+  font-size: 25px;
+}
+h1{
+  text-align: justify;
+}
+
+.imgdir{
+  margin: 12px 0px 4px 12px;
+  float: right;
+}
+
+.imgesq{
+  margin: 12px 12px 4px 0px;
+  float: left;
+  
+}
+
+/*página historia*/
+
+.historia > p {
+  text-align: justify;
+  font: 1.5rem "verdana", sans-serif;
+  text-decoration: none;
+  margin-right: 0px;
+  }
+
+ .fonte {
+    text-align: right !important ;
+    font-style: italic;
+
+  }
+
+  /*página saches*/
+
+.saches h1{
+    margin-bottom: 25px;
+}
+
+.saches li {
+    /* margin-top: -20px; */
+    
+    font-size: 22.5px;
+}
+
+.lista_saches {
+  margin-top: 0;    
+}
+
